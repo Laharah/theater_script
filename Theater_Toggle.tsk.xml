@@ -1,0 +1,126 @@
+<TaskerData sr="" dvi="1" tv="5.8.2">
+	<Task sr="task14">
+		<cdate>1566237337820</cdate>
+		<edate>1566250482563</edate>
+		<id>14</id>
+		<nme>Theater Toggle</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%THEATER</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>2057451072</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>192.168.0.125</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>none</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File>/storage/emulated/0/Tasker/theaterssh</Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password></Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>false</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>false</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>theater</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable></Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>none</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.plexapp.plex.activities.SplashActivity</appClass>
+				<appPkg>com.plexapp.android</appPkg>
+				<label>Plex:com.plexapp.plex.activities.SplashActivity</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%THEATER</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>2057451072</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>192.168.0.125</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>down</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File>/storage/emulated/0/Tasker/theaterssh</Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password></Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>false</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>false</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>theater</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable></Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>down</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%THEATER</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_theaters</nme>
+		</Img>
+	</Task>
+</TaskerData>
