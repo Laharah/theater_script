@@ -1,4 +1,4 @@
-SCRIPTS = start_theater stop_theater
+SCRIPTS = theater
 INSTALLDIR=/usr/local/bin
 
 install: $(SCRIPTS)

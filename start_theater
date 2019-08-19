@@ -1,4 +1,0 @@
-#!/bin/bash
-
-export DISPLAY=:0.0
-nohup google-chrome --start-fullscreen --autoplay-policy=no-user-gesture-required "https://plex.tv/web/app" > /dev/null 2>&1 &
